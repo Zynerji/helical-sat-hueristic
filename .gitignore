@@ -132,3 +132,11 @@ dmypy.json
 # OS
 .DS_Store
 Thumbs.db
+
+# Benchmark results and cached data
+*.pkl
+*.pickle
+benchmark_results*.md
+results/
+data/satlib/*.cnf
+data/hamlib/
